@@ -1,0 +1,23 @@
+{
+    "name": "ChatRoomDemo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "server": "node server.js",
+        "client": "npm start --prefix chat",
+        "dev": "concurrently \"npm run server\" \"npm run client\""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "moment": "^2.29.1",
+        "socket.io": "^4.1.2"
+    },
+    "devDependencies": {
+        "concurrently": "^6.1.0"
+    }
+}

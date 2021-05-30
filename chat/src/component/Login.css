@@ -1,0 +1,62 @@
+.Login {
+    max-width: 500px;
+    color: var(--font-color-light);
+}
+
+.Login-header {
+    text-align: center;
+    padding: 1.5rem;
+    background: var(--bg-c-dark);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.Login-main {
+    padding: 2.5rem 3rem;
+    background: linear-gradient(135deg, var(--bg-c-dark) 20%, var(--bg-c-light) 100%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.Login-main .form-control {
+    margin-bottom: 1.5rem;
+}
+
+.Login-main label {
+    display: block;
+    margin-bottom: 0.8rem;
+}
+
+.Login-main input[type='text'], .Login-main select, .Login-btn {
+    font-size: 1.2rem;
+    padding: 0.8rem;
+    width: 100%;
+    border-radius: 5px;
+    border: var(--bg-c-light) 2px solid;
+    outline: none;
+}
+
+.Login-main input[type='text']:focus, .Login-main select:focus {
+    border-color: #000;
+}
+
+.Login-main .error {
+    border-color: var(--error-color);
+}
+
+.Login-btn {
+    margin-top: 1rem;
+    color: #aaa;
+    border-color: transparent;
+}
+
+.Login-btn-success {
+    color: var(--font-color-light);
+    cursor: pointer;
+    background-color: var(--success-color);
+}
+
+.Login-btn-success:hover {
+    background-color: var(--font-color-light);
+    color: #000;
+}
